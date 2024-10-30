@@ -1,1 +1,13 @@
-/* CSS for your imitation here */
+.full {
+  width:500px;
+  height:500px;
+  background-color: #F9F18E;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.white {
+  color: #FFFFFF;
+}
+div {
+  border: 1px blue solid
+}
