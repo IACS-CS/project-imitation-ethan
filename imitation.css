@@ -1,13 +1,51 @@
 .full {
-  width:500px;
-  height:500px;
+  width:1400px;
+  height:1400px;
   background-color: #F9F18E;
-  padding-left: 8px;
-  padding-top: 8px;
+  padding-left: 22px;
+  padding-top: 22px;
 }
 .white {
   color: #FFFFFF;
 }
 div {
-  border: 1px blue solid
+  border: 5px blue solid
+}
+.info {
+  box-sizing: border-box;
+  height:290px;
+  width:890px;
+  border-color:red;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.top {
+  box-sizing: border-box;
+  display:flex;
+  align-self:start;
+  justify-self:start;
+  flex-direction: row;
+  justify-content: space-between;
+  border-color: green;
+  width: 100%
+}
+.middle {
+  display:flex
+}
+.bottom {
+  box-sizing: border-box;
+  display:flex;
+  align-self: start;
+  justify-self:end;
+  flex-direction: row;
+  justify-content: space-between;
+  border-color: purple;
+  margin-top: auto;
+  width: 100%
+}
+.brail {
+  position:absolute;
+  right:0;
+  top:0;
 }
