@@ -79,10 +79,15 @@
   height: 23px;
 }
 .small {
-  font-size: 20%;
+  font-size: 8px;
 }
 .Wxaxrxp {
-  background-color:#FFFFFF
+  background-color:#FFFFFF;
+  line-height: 1;
+  padding-top: 5px;
+  font-size: 22px;
+  height:23px;
+
 }
 div {
   font-family: font;
@@ -113,4 +118,10 @@ div {
   width:52px;
   height:23px;
   background-color:black
+}
+.tx {
+  padding-right: 15px
+}
+.ap {
+  padding-right: 40px
 }
