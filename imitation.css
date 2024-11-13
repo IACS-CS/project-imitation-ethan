@@ -68,6 +68,9 @@
 .logo {
   height:23px
 }
+.two {
+  padding-left: 25px
+}
 .blob1 {
   height:22px;
 }
@@ -80,13 +83,20 @@
 }
 .small {
   font-size: 8px;
+  padding-right:30px;
+}
+.whiteback {
+  background-color:#FFFFFF;
+  height:23px;
+  padding-left:2px;
+  padding-right:2px;
 }
 .Wxaxrxp {
-  background-color:#FFFFFF;
   line-height: 1;
-  padding-top: 5px;
   font-size: 22px;
-  height:23px;
+  padding-top: 2px
+}
+.r {
 
 }
 div {
@@ -104,10 +114,6 @@ div {
 @font-face {
     font-family: italic;
     src: url("HelveticaNeueBlackItalic.otf") format("opentype");
-}
-
-.blackbox {
-  background-color:black
 }
 .blackbox1 {
   width:8px;
