@@ -1,5 +1,37 @@
 /* Code for all screen sizes */
-
+.full {
+  background-color: #F9F18E;
+}
+.white {
+  color: #FFFFFF;
+}
+.info {
+  background-color: #F9F18E;
+  border-radius: 2px;
+}
+.whiteback {
+    background-color:#FFFFFF;
+}
+div {
+  font-family: font;
+}
+.back {
+   font-family: italic;
+}
+@font-face {
+    font-family: font;
+    src: url("HelveticaNeueBlack.otf") format("opentype");
+}
+@font-face {
+    font-family: italic;
+    src: url("HelveticaNeueBlackItalic.otf") format("opentype");
+}
+.blackbox1 {
+  background-color:black
+}
+.blackbox2 {
+  background-color:black
+}
 /* BEGIN MOBILE RULES */
 @media only screen and (max-width: 768px) {
   /* Code for mobile phones only: */
@@ -28,12 +60,120 @@
 @media only screen and (min-width: 1400px) {
   /* Code for wide screen only */
 
+.full {
+  width:1400px;
+  height:1400px;
+  padding-left: 22px;
+  padding-top: 25px;
+  position: relative;
+  display:flex;
+  justify-self: center;
+}
+.info {
+  height:290px;
+  width:890px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  position: absolute;
+  right: 22px;
+  top: 45px;
+  padding: 11px;
+}
+.top {
+  display:flex;
+  align-self:start;
+  justify-self:start;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  line-height:27px;
+  font-size:28px;
+}
+.middle {
+  display:flex
+}
+.bottom {
+  display:flex;
+  align-self: start;
+  justify-self:end;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+  width: 100%
+}
+.brail {
+  position:absolute;
+  right:11px;
+  top:11px;
+  height:22px;
+}
+.painting {
+  box-sizing: border-box;
+  height:290px;
+  width:890px;
+  position: absolute;
+  right: 22px;
+  top: 533px;
+  border-radius: 2px
+}
+.logo {
+  height:23px
+}
+.two {
+  padding-left: 25px
+}
+.blob1 {
+  height:22px;
+}
+.blob2 {
+  height:22px;
+  margin-right: 10px
+}
+.barcode {
+  height: 23px;
+}
+.small {
+  font-size: 8px;
+  padding-right:30px;
+}
+.whiteback {
+  height:23px;
+  padding-left:2px;
+  padding-right:2px;
+}
+.Wxaxrxp {
+  line-height: 1;
+  font-size: 22px;
+  padding-top: 2px
+}
+.back {
+  font-size: 185px;
+  line-height: 0.8;
+}
+.blackbox1 {
+  width:8px;
+  height:23px;
+}
+.blackbox2 {
+  width:52px;
+  height:23px;
+}
+.tx {
+  padding-right: 15px
+}
+.ap {
+  padding-right: 40px
+}
   /* Widescreen label */
   main::before {
     content: "Wide";
     background-color: #00438888;
   }
   /* End widescreen label */
+  .mobile {
+    display:none
+  }
 }
 
 /* BACK TO CODE FOR ALL SIZES */

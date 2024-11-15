@@ -5,6 +5,8 @@
   padding-left: 22px;
   padding-top: 25px;
   position: relative;
+  display:flex;
+  justify-self: center;
 }
 .white {
   color: #FFFFFF;
