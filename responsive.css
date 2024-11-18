@@ -35,12 +35,109 @@ div {
 /* BEGIN MOBILE RULES */
 @media only screen and (max-width: 768px) {
   /* Code for mobile phones only: */
-
+.full {
+  width: 768px;
+  height: 1024px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 25px;
+}
+.back {
+  font-size: 130px;
+  line-height: 0.8;
+}
+.textmobile {
+  width:220px
+}
+.backwide {
+  display:none
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+  background-image: url(painting.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:250px
+}
+.small {
+  padding:2px;
+  height:96px
+}
+.top {
+  display:flex;
+  align-self:start;
+  justify-self:start;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  line-height:27px;
+  font-size:28px;
+}
+.middle {
+  display:flex
+}
+.bottom {
+  display:flex;
+  align-self: start;
+  justify-self:end;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+  width: 100%
+}
+.logo {
+  height:23px
+}
+.brail {
+  height:22px;
+  position:absolute;
+  right:-50px;
+  top:25px;
+}
+.blob1 {
+  height:22px;
+}
+.blob2 {
+  height:22px;
+}
+.barcode {
+  height: 100px;
+  width: 100px
+}
+.small {
+  font-size: 10px;
+  width: 100px;
+  line-height:1.25
+}
+.wide {
+  display: none
+}
+.Wxaxrxp {
+  line-height: 1;
+  font-size: 22px;
+  padding-top: 2px;
+}
+.whitemobile {
+  background-color: #FFFFFF
+}
+.blackmobile {
+  background-color: #000000
+}
   /* Mobile label */
   main::before {
     content: "Mobile";
     background-color: #c8787888;
   }
+  .blackbox1 {
+  width:8px;
+  height:100px;
+}
+.blackbox2 {
+  width:52px;
+  height:100px;
+}
   /* End mobile label */
 }
 
@@ -59,7 +156,9 @@ div {
 /* BEGIN WIDE SCREEN RULES */
 @media only screen and (min-width: 1400px) {
   /* Code for wide screen only */
-
+.backmobile {
+  display:none
+}
 .full {
   width:1400px;
   height:1400px;
