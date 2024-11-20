@@ -33,7 +33,7 @@ div {
   background-color:black
 }
 /* BEGIN MOBILE RULES */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   /* Code for mobile phones only: */
 .full {
   width: 768px;
@@ -41,7 +41,8 @@ div {
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 25px;
-  position: relative
+  position: relative;
+  box-sizing:border-box;
 }
 .back {
   font-size: 130px;
@@ -165,7 +166,7 @@ div {
 
 
 /* BEGIN WIDE SCREEN RULES */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 800px) {
   /* Code for wide screen only */
 .backmobile {
   display:none
@@ -255,7 +256,14 @@ div {
 .Wxaxrxp {
   line-height: 1;
   font-size: 22px;
-  padding-top: 2px
+  padding-top: 2px;
+  background-color: white;
+}
+.plsmakeitwhite {
+  background-color:white
+}
+.plsfortheloveofgod {
+  background-color: #FFFFFF;
 }
 .back {
   font-size: 185px;
