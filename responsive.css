@@ -41,6 +41,7 @@ div {
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 25px;
+  position: relative
 }
 .back {
   font-size: 130px;
@@ -59,7 +60,8 @@ div {
   background-image: url(painting.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height:250px
+  height:250px;
+  margin-top: 25px
 }
 .small {
   padding:2px;
@@ -93,14 +95,34 @@ div {
 .brail {
   height:22px;
   position:absolute;
-  right:-50px;
-  top:25px;
+  right:25px;
+  top:29px;
 }
 .blob1 {
   height:22px;
 }
 .blob2 {
   height:22px;
+  padding-right:10px
+}
+.blackbox1 {
+  align-self:end
+}
+.Wxaxrxp {
+  align-self:end
+}
+.logo {
+  align-self:end;
+  background-color:#FFFFFF;
+  border-radius: 25%;
+  border-width: 5px;
+  box-sizing:border-box
+}
+.blackbox2 {
+  align-self:end
+}
+.blobmobile {
+  align-self:end
 }
 .barcode {
   height: 100px;
@@ -132,29 +154,18 @@ div {
   }
   .blackbox1 {
   width:8px;
-  height:100px;
+  height:23px;
 }
 .blackbox2 {
   width:52px;
-  height:100px;
+  height:23px;
 }
   /* End mobile label */
 }
 
-/* BEGIN MEDIUM WIDTH RULES */
-@media only screen and (min-width: 768px) and (max-width: 1399px) {
-  /* Code for medium width and bigger : */
-
-  /* Laptop label */
-  main::before {
-    content: "Laptop";
-    background-color: #45454588;
-  }
-  /* End laptop label */
-}
 
 /* BEGIN WIDE SCREEN RULES */
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 769px) {
   /* Code for wide screen only */
 .backmobile {
   display:none
